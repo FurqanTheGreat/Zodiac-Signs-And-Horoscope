@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+    text-align: center;
+    color: #000000;
+}
+
+body {
+    background-image: url('https://wallpapers.com/images/featured/zodiac-signs-t889vtm53kde50gv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul {
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
