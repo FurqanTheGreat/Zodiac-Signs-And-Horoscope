@@ -28,3 +28,22 @@ li {
     font-weight: 700;
     font-size: 20px;
 }
+
+button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+}
+
+button:active {
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: none;
+}
+
+h2 {
+    color: #ffffff;
+}

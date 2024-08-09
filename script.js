@@ -18,4 +18,12 @@ function generateRandomMessage() {
     return randomMessage;
 };
 
-console.log(generateRandomMessage());
+document.querySelector('h2').innerHTML = generateRandomMessage();
+
+document.querySelector('h2').hidden = true;
+
+let button = document.querySelector('button')
+
+button.onclick = function() {
+    document.querySelector('h2').hidden = false;
+}
